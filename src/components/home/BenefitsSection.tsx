@@ -30,7 +30,7 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenEnrollme
       icon: Award,
       title: 'CERTIFICATE OF COMPLETION',
       subtitle: 'Earn a certificate to boost your profile',
-      description: 'Receive a digitally verified KIRA STUDIO AI Builder Certificate to share on LinkedIn, your portfolio, and resume for recruiters.',
+      description: 'Receive a digitally verified KIRA SOLUTIONS AI Builder Certificate to share on LinkedIn, your portfolio, and resume for recruiters.',
       highlight: 'Shareable & Verified',
       iconBg: 'bg-indigo-500/10 text-indigo-500 border-indigo-500/30'
     },
@@ -84,7 +84,7 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenEnrollme
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight">
-            Why Choose KIRA STUDIO <br />
+            Why Choose KIRA SOLUTIONS <br />
             <span className="gold-text">AI Builder Masterclass?</span>
           </h2>
 

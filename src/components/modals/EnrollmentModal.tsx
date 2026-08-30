@@ -62,7 +62,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
         <div className="p-6 bg-gradient-to-r from-amber-500/20 via-slate-950 to-indigo-500/20 border-b border-slate-800 space-y-2">
           <div className="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider">
             <Sparkles className="w-4 h-4" />
-            <span>KIRA STUDIO AI BUILDER BOOTCAMP</span>
+            <span>KIRA SOLUTIONS AI BUILDER BOOTCAMP</span>
           </div>
           <h2 className="text-2xl font-display font-extrabold text-white">
             {step === 'details' && 'Student Seat Reservation'}
@@ -229,7 +229,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
                   ))}
                 </div>
                 <div className="text-[11px] text-slate-400">
-                  Click Pay to simulate instant UPI transfer of <strong>₹399</strong> to KIRA STUDIO Official UPI Merchant.
+                  Click Pay to simulate instant UPI transfer of <strong>₹399</strong> to KIRA SOLUTIONS Official UPI Merchant.
                 </div>
               </div>
             )}
@@ -272,7 +272,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
                 Congratulations, {formData.name}!
               </h3>
               <p className="text-xs text-slate-300">
-                Your seat in the <strong className="text-amber-400">KIRA STUDIO AI Builder Bootcamp</strong> is successfully reserved!
+                Your seat in the <strong className="text-amber-400">KIRA SOLUTIONS AI Builder Bootcamp</strong> is successfully reserved!
               </p>
             </div>
 

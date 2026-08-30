@@ -47,7 +47,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     {
       title: 'AI Vision & LLM Agent',
       prompt: 'Create autonomous multi-modal agent for image & code synthesis',
-      codeSnippet: `import { KiraAgent } from '@kira/ai-studio';\n\nconst agent = new KiraAgent({ tools: ['vision', 'code-exec'] });\nconst app = await agent.createApp('Image Sentiment Analyzer');`,
+      codeSnippet: `import { KiraAgent } from '@kira/ai-solutions';\n\nconst agent = new KiraAgent({ tools: ['vision', 'code-exec'] });\nconst app = await agent.createApp('Image Sentiment Analyzer');`,
       result: '✓ Full-Stack AI App Deployed to Vercel Cloud.',
     },
   ];
@@ -201,7 +201,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                     <Bot className="w-6 h-6 animate-pulse" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-white text-base">KIRA AI Studio Lab</h3>
+                    <h3 className="font-display font-bold text-white text-base">KIRA AI Solutions Lab</h3>
                     <p className="text-xs text-slate-400">Interactive Prompt & Code Simulator</p>
                   </div>
                 </div>

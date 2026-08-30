@@ -36,7 +36,7 @@ export const KiraLogo: React.FC<KiraLogoProps> = ({
           {/* Subtle Metallic Gradient Backdrop */}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,_var(--tw-gradient-stops))] from-slate-800 via-slate-950 to-black" />
           
-          {/* Custom SVG Monogram Emblem representing KIRA STUDIO (KR mark) */}
+          {/* Custom SVG Monogram Emblem representing KIRA SOLUTIONS (KR mark) */}
           <svg className="relative w-3/4 h-3/4 text-amber-400 drop-shadow-[0_2px_8px_rgba(212,175,55,0.8)]" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             {/* Left curved wing of K */}
             <path 
@@ -67,9 +67,7 @@ export const KiraLogo: React.FC<KiraLogoProps> = ({
             KIRA
           </span>
           <div className="flex flex-col justify-center">
-            <span className={`font-brand font-semibold tracking-[0.25em] uppercase ${sizeClasses.studio} ${studioColor} border-y border-amber-500/30 px-1.5 py-0.5`}>
-              STUDIO
-            </span>
+            <span className={`font-brand font-semibold tracking-[0.25em] uppercase ${sizeClasses.studio} ${studioColor} border-y border-amber-500/30 px-1.5 py-0.5`}>SOLUTIONS</span>
           </div>
         </div>
         {showTagline && (

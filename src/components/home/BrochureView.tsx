@@ -32,7 +32,7 @@ export const BrochureView: React.FC<BrochureViewProps> = ({ onOpenEnrollment, on
       <div className="max-w-4xl mx-auto mb-6 no-print flex items-center justify-between bg-slate-900/90 border border-amber-500/30 p-4 rounded-2xl shadow-xl backdrop-blur-md">
         <div className="flex items-center gap-2 text-xs font-bold text-amber-300">
           <Zap className="w-4 h-4 text-amber-400" />
-          <span>KIRA STUDIO Official Printable Digital Brochure</span>
+          <span>KIRA SOLUTIONS Official Printable Digital Brochure</span>
         </div>
         
         <div className="flex items-center gap-3">
@@ -206,11 +206,11 @@ export const BrochureView: React.FC<BrochureViewProps> = ({ onOpenEnrollment, on
                 </div>
               </a>
 
-              <a href="https://instagram.com/kiraofficialstudio" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-200">
+              <a href="https://instagram.com/kiraofficialsolutions" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-xl bg-slate-900 border border-slate-800 text-slate-200">
                 <InstagramIcon className="w-4 h-4 text-pink-400 shrink-0" />
                 <div>
                   <span className="text-[9px] text-slate-400 uppercase font-bold block">INSTAGRAM</span>
-                  <span className="font-extrabold">kiraofficialstudio</span>
+                  <span className="font-extrabold">kiraofficialsolutions</span>
                 </div>
               </a>
             </div>
@@ -219,7 +219,7 @@ export const BrochureView: React.FC<BrochureViewProps> = ({ onOpenEnrollment, on
 
         {/* Footer Ribbon */}
         <div className="pt-2 flex items-center justify-between text-[11px] text-slate-500 font-mono">
-          <span>KIRA STUDIO — LEARN • BUILD • EARN • GROW</span>
+          <span>KIRA SOLUTIONS — LEARN • BUILD • EARN • GROW</span>
           <span>FEES: ₹399 ONE-TIME</span>
         </div>
 

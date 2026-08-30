@@ -26,7 +26,7 @@ export const CertificatePreview: React.FC<CertificatePreviewProps> = ({ onOpenEn
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight">
             Earn Your Verified <br />
-            <span className="gold-text">KIRA STUDIO AI Builder Certificate</span>
+            <span className="gold-text">KIRA SOLUTIONS AI Builder Certificate</span>
           </h2>
 
           <p className="text-slate-300 text-base sm:text-lg">
@@ -107,7 +107,7 @@ export const CertificatePreview: React.FC<CertificatePreviewProps> = ({ onOpenEn
                   </h3>
 
                   <p className="text-xs sm:text-sm text-slate-700 leading-relaxed max-w-xl mx-auto">
-                    has successfully completed the intensive <strong>KIRA STUDIO AI BUILDER BOOTCAMP</strong> mastering AI Fundamentals, Model Training & Fine-Tuning, Generative AI, RAG Systems, and Full-Stack Cloud App Deployment.
+                    has successfully completed the intensive <strong>KIRA SOLUTIONS AI BUILDER BOOTCAMP</strong> mastering AI Fundamentals, Model Training & Fine-Tuning, Generative AI, RAG Systems, and Full-Stack Cloud App Deployment.
                   </p>
                 </div>
 
@@ -115,7 +115,7 @@ export const CertificatePreview: React.FC<CertificatePreviewProps> = ({ onOpenEn
                 <div className="pt-6 border-t border-amber-200 grid grid-cols-3 items-end text-left text-xs">
                   <div>
                     <div className="font-brand font-bold text-slate-900 text-sm italic">
-                      KIRA STUDIO Academic Director
+                      KIRA SOLUTIONS Academic Director
                     </div>
                     <div className="text-[10px] text-slate-500 uppercase tracking-wider mt-1">
                       Authorized Signature

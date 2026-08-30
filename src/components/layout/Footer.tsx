@@ -126,7 +126,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenEnrollment })
               </a>
 
               <a
-                href="https://instagram.com/kiraofficialstudio"
+                href="https://instagram.com/kiraofficialsolutions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-3 rounded-xl bg-slate-900 border border-slate-800 hover:border-amber-500/40 text-slate-200 hover:text-amber-300 transition-all"
@@ -136,7 +136,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenEnrollment })
                 </div>
                 <div>
                   <div className="text-[11px] text-slate-400 uppercase font-semibold">Instagram</div>
-                  <div className="font-bold text-sm">kiraofficialstudio</div>
+                  <div className="font-bold text-sm">kiraofficialsolutions</div>
                 </div>
               </a>
             </div>
@@ -146,7 +146,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenEnrollment })
         {/* Bottom copyright bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div>
-            © {new Date().getFullYear()} <span className="text-amber-400 font-bold">KIRA STUDIO</span>. All rights reserved. Learn • Build • Earn • Grow.
+            © {new Date().getFullYear()} <span className="text-amber-400 font-bold">KIRA SOLUTIONS</span>. All rights reserved. Learn • Build • Earn • Grow.
           </div>
 
           <div className="flex items-center gap-6">

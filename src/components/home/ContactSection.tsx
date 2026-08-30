@@ -32,7 +32,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenEnrollment
     },
     {
       q: 'How do I receive my Certificate of Completion?',
-      a: 'Upon completing the 4 capstone project deliverables, your verified KIRA STUDIO AI Builder Certificate will be digitally issued with a unique verification serial number.'
+      a: 'Upon completing the 4 capstone project deliverables, your verified KIRA SOLUTIONS AI Builder Certificate will be digitally issued with a unique verification serial number.'
     },
     {
       q: 'What tools and software will I use?',
@@ -40,7 +40,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenEnrollment
     },
     {
       q: 'How can I reach support if I have questions?',
-      a: 'You can directly contact us via Phone/WhatsApp at 7695924618, Email at officialkirastudio@gmail.com, or Instagram @kiraofficialstudio.'
+      a: 'You can directly contact us via Phone/WhatsApp at 7695924618, Email at officialkirastudio@gmail.com, or Instagram @kiraofficialsolutions.'
     }
   ];
 
@@ -58,7 +58,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenEnrollment
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight">
             Have Questions? <br />
-            <span className="gold-text">Get In Touch With KIRA STUDIO</span>
+            <span className="gold-text">Get In Touch With KIRA SOLUTIONS</span>
           </h2>
 
           <p className="text-slate-300 text-base sm:text-lg">
@@ -109,7 +109,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenEnrollment
 
           {/* Instagram Card */}
           <a
-            href="https://instagram.com/kiraofficialstudio"
+            href="https://instagram.com/kiraofficialsolutions"
             target="_blank"
             rel="noopener noreferrer"
             className="group p-6 rounded-3xl bg-slate-900 border border-slate-800 hover:border-amber-400 transition-all duration-300 shadow-xl flex items-center gap-4"
@@ -122,7 +122,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenEnrollment
                 INSTAGRAM
               </span>
               <span className="text-xl font-extrabold text-white group-hover:text-amber-300 transition-colors">
-                kiraofficialstudio
+                kiraofficialsolutions
               </span>
               <span className="text-[11px] text-slate-400 block mt-0.5">Follow for AI tutorials</span>
             </div>
