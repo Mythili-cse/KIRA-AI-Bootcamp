@@ -24,7 +24,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenEnrollment
   const faqs = [
     {
       q: 'What is the total fee for the AI Builder Bootcamp?',
-      a: 'The total fee is a one-time payment of ₹309. There are zero hidden charges or recurring subscriptions. You get full access to all 6 modules, 4 capstone projects, starter code, and verified certificate.'
+      a: 'The total fee is a one-time payment of ₹399. There are zero hidden charges or recurring subscriptions. You get full access to all 6 modules, 4 capstone projects, starter code, and verified certificate.'
     },
     {
       q: 'Do I need prior coding or AI experience?',
@@ -198,7 +198,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenEnrollment
                       rows={3}
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      placeholder="Ask any question about the ₹309 AI Builder Bootcamp..."
+                      placeholder="Ask any question about the ₹399 AI Builder Bootcamp..."
                       className="w-full mt-1 px-4 py-3 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm focus:outline-none focus:border-amber-400"
                     />
                   </div>

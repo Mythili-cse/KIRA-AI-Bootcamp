@@ -129,7 +129,7 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenEnrollme
 
                 <div className="pt-4 mt-6 border-t border-slate-800 flex items-center gap-2 text-xs font-semibold text-amber-400">
                   <CheckCircle className="w-4 h-4" />
-                  <span>Included in ₹309 Bootcamp Pass</span>
+                  <span>Included in ₹399 Bootcamp Pass</span>
                 </div>
               </div>
             );
@@ -155,7 +155,7 @@ export const BenefitsSection: React.FC<BenefitsSectionProps> = ({ onOpenEnrollme
             onClick={onOpenEnrollment}
             className="px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-extrabold text-sm shadow-xl shadow-amber-500/30 hover:scale-105 transition-transform"
           >
-            CLAIM YOUR ₹309 SEAT NOW
+            CLAIM YOUR ₹399 SEAT NOW
           </button>
         </div>
 

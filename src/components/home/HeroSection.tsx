@@ -135,14 +135,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             {/* Pricing Card & CTA Row */}
             <div className="flex flex-col sm:flex-row items-center gap-4 pt-2">
               
-              {/* Highlight Price Tag Badge matching prompt requirement (₹309) */}
+              {/* Highlight Price Tag Badge matching prompt requirement (₹399) */}
               <div className="w-full sm:w-auto flex items-center justify-center sm:justify-start gap-4 p-4 rounded-2xl bg-gradient-to-r from-amber-500/20 via-slate-900 to-amber-500/10 border-2 border-amber-400/60 shadow-xl shadow-amber-500/15">
                 <div className="flex flex-col">
                   <div className="text-[10px] uppercase tracking-widest font-black text-amber-400">
                     LIMITED TIME SPECIAL FEE
                   </div>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-3xl font-black text-white">₹309</span>
+                    <span className="text-3xl font-black text-white">₹399</span>
                     <span className="text-sm line-through text-slate-500">₹999</span>
                     <span className="bg-amber-400 text-slate-950 text-[10px] font-black px-1.5 py-0.5 rounded">
                       SAVE 69%
@@ -158,7 +158,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   onClick={onOpenEnrollment}
                   className="group flex items-center justify-center gap-3 px-7 py-4 rounded-2xl font-extrabold text-sm sm:text-base bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-500 text-slate-950 shadow-xl shadow-amber-500/30 hover:scale-105 active:scale-95 transition-all duration-200"
                 >
-                  <span>ENROLL NOW FOR ₹309</span>
+                  <span>ENROLL NOW FOR ₹399</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
 
@@ -290,7 +290,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               {/* Bottom Quick Feature Banner */}
               <div className="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-400">
                 <span>⚡ Practical Hands-on Projects</span>
-                <span className="text-amber-400 font-bold">₹309 Special Fee</span>
+                <span className="text-amber-400 font-bold">₹399 Special Fee</span>
               </div>
             </div>
           </div>

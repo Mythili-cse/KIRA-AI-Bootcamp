@@ -96,7 +96,7 @@ export const App: React.FC = () => {
                     SPECIAL FEE OFFER
                   </span>
                   <h2 className="text-3xl font-display font-extrabold text-white">
-                    Unlock All 6 Modules & 4 Projects for <span className="gold-text">₹309</span>
+                    Unlock All 6 Modules & 4 Projects for <span className="gold-text">₹399</span>
                   </h2>
                   <p className="text-slate-300 text-sm">
                     One-time payment • Lifetime access • Verified Certificate • Discord Community
@@ -105,7 +105,7 @@ export const App: React.FC = () => {
                     onClick={() => setIsEnrollmentOpen(true)}
                     className="px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-extrabold text-base shadow-xl shadow-amber-500/25 hover:scale-105 transition-transform"
                   >
-                    RESERVE YOUR SEAT NOW FOR ₹309
+                    RESERVE YOUR SEAT NOW FOR ₹399
                   </button>
                 </div>
               </div>

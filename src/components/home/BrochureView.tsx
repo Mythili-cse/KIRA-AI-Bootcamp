@@ -92,13 +92,13 @@ export const BrochureView: React.FC<BrochureViewProps> = ({ onOpenEnrollment, on
             </div>
           </div>
 
-          {/* Price Badge matching ₹309 fee */}
+          {/* Price Badge matching ₹399 fee */}
           <div className="lg:col-span-4 flex flex-col items-center justify-center p-6 rounded-2xl bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white border-2 border-amber-400 shadow-xl text-center space-y-2">
             <span className="text-[10px] uppercase font-mono font-bold tracking-widest text-amber-400">
               SPECIAL FEE PASS
             </span>
             <div className="text-xs uppercase font-bold text-slate-300">ONLY</div>
-            <div className="text-4xl font-black text-amber-400">₹309</div>
+            <div className="text-4xl font-black text-amber-400">₹399</div>
             <span className="text-[10px] text-slate-300 uppercase tracking-wider">ONE-TIME PAYMENT</span>
             
             <button
@@ -179,7 +179,7 @@ export const BrochureView: React.FC<BrochureViewProps> = ({ onOpenEnrollment, on
               onClick={onOpenEnrollment}
               className="px-6 py-3 rounded-xl bg-amber-400 text-slate-950 font-black text-xs shadow-lg hover:bg-amber-300 no-print shrink-0"
             >
-              ENROLL FOR ₹309
+              ENROLL FOR ₹399
             </button>
           </div>
 
@@ -220,7 +220,7 @@ export const BrochureView: React.FC<BrochureViewProps> = ({ onOpenEnrollment, on
         {/* Footer Ribbon */}
         <div className="pt-2 flex items-center justify-between text-[11px] text-slate-500 font-mono">
           <span>KIRA STUDIO — LEARN • BUILD • EARN • GROW</span>
-          <span>FEES: ₹309 ONE-TIME</span>
+          <span>FEES: ₹399 ONE-TIME</span>
         </div>
 
       </div>

@@ -211,13 +211,13 @@ export const ProjectsShowcase: React.FC<ProjectsShowcaseProps> = ({ onOpenEnroll
             Build These 4 Capstones in 4 Weeks
           </h3>
           <p className="text-slate-300 text-sm max-w-2xl mx-auto">
-            All project starter templates, code repositories, and datasets are included in your <strong className="text-amber-400">₹309</strong> lifetime pass.
+            All project starter templates, code repositories, and datasets are included in your <strong className="text-amber-400">₹399</strong> lifetime pass.
           </p>
           <button
             onClick={onOpenEnrollment}
             className="px-8 py-3.5 rounded-2xl bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-extrabold text-sm shadow-xl shadow-amber-500/20 hover:scale-105 transition-transform inline-flex items-center gap-2"
           >
-            <span>ENROLL NOW FOR ₹309</span>
+            <span>ENROLL NOW FOR ₹399</span>
             <ExternalLink className="w-4 h-4" />
           </button>
         </div>

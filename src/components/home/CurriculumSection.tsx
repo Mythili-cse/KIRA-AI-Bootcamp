@@ -261,7 +261,7 @@ export const CurriculumSection: React.FC<CurriculumSectionProps> = ({ onOpenEnro
               Ready to Master AI from Scratch?
             </h3>
             <p className="text-slate-300 text-sm">
-              Get full lifetime access to all 6 modules, 4 hands-on capstone projects & certificate for only <strong className="text-amber-400">₹309</strong>.
+              Get full lifetime access to all 6 modules, 4 hands-on capstone projects & certificate for only <strong className="text-amber-400">₹399</strong>.
             </p>
           </div>
 
@@ -269,7 +269,7 @@ export const CurriculumSection: React.FC<CurriculumSectionProps> = ({ onOpenEnro
             onClick={onOpenEnrollment}
             className="px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-extrabold text-sm shadow-xl shadow-amber-500/20 hover:scale-105 transition-transform flex items-center gap-2 shrink-0"
           >
-            <span>ENROLL FOR ₹309</span>
+            <span>ENROLL FOR ₹399</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

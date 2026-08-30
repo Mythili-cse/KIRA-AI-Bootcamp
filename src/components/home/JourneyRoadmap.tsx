@@ -214,7 +214,7 @@ export const JourneyRoadmap: React.FC<JourneyRoadmapProps> = ({ onOpenEnrollment
                   onClick={onOpenEnrollment}
                   className="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-extrabold text-xs flex items-center justify-center gap-2 shadow-lg shadow-amber-500/20"
                 >
-                  <span>START WEEK 1 FOR ONLY ₹309</span>
+                  <span>START WEEK 1 FOR ONLY ₹399</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>

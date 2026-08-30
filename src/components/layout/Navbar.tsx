@@ -47,7 +47,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: 'journey', label: 'Learning Journey', icon: Compass },
     { id: 'projects', label: 'Projects', icon: Briefcase },
     { id: 'certificate', label: 'Certificate', icon: Award },
-    { id: 'pricing', label: 'Fee (₹309)', icon: Tag },
+    { id: 'pricing', label: 'Fee (₹399)', icon: Tag },
     { id: 'contact', label: 'Contact', icon: Phone },
   ];
 
@@ -65,7 +65,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       {/* Top Notification Announcement Bar */}
       <div className="bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 text-slate-950 text-xs font-bold py-1.5 px-4 text-center flex items-center justify-center gap-2 shadow-inner">
         <Zap className="w-3.5 h-3.5 fill-slate-950 animate-bounce" />
-        <span>SPECIAL AI BOOTCAMP OFFER: ENROLL TODAY FOR ONLY <span className="underline font-extrabold text-slate-950">₹309 ONE-TIME PAYMENT</span>!</span>
+        <span>SPECIAL AI BOOTCAMP OFFER: ENROLL TODAY FOR ONLY <span className="underline font-extrabold text-slate-950">₹399 ONE-TIME PAYMENT</span>!</span>
         <span className="hidden md:inline-block bg-slate-950 text-amber-300 text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider ml-1">Limited Seats</span>
       </div>
 
@@ -122,7 +122,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <span className="relative z-10 flex items-center gap-1.5">
               <span>ENROLL NOW</span>
-              <span className="bg-slate-950 text-amber-300 text-[10px] px-1.5 py-0.5 rounded font-extrabold">₹309</span>
+              <span className="bg-slate-950 text-amber-300 text-[10px] px-1.5 py-0.5 rounded font-extrabold">₹399</span>
             </span>
             <ChevronRight className="w-4 h-4 relative z-10 group-hover:translate-x-1 transition-transform" />
           </button>
@@ -134,7 +134,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={onOpenEnrollment}
             className="px-3 py-1.5 rounded-lg bg-amber-400 text-slate-950 font-bold text-xs shadow"
           >
-            ₹309 ENROLL
+            ₹399 ENROLL
           </button>
 
           <button
@@ -191,7 +191,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 }}
                 className="flex items-center justify-center gap-2 p-3.5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 font-extrabold text-sm shadow-xl shadow-amber-500/30"
               >
-                <span>ENROLL NOW FOR ₹309</span>
+                <span>ENROLL NOW FOR ₹399</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>

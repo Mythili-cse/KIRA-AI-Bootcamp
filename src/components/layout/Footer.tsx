@@ -48,7 +48,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenEnrollment })
                 { id: 'journey', label: 'Learning Journey Roadmap' },
                 { id: 'projects', label: 'Capstone Projects' },
                 { id: 'certificate', label: 'Earn Certificate' },
-                { id: 'pricing', label: 'Enrollment Fee (₹309)' },
+                { id: 'pricing', label: 'Enrollment Fee (₹399)' },
               ].map((link) => (
                 <li key={link.id}>
                   <button
@@ -88,7 +88,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenEnrollment })
                 onClick={onOpenEnrollment}
                 className="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 font-bold text-xs shadow-lg shadow-amber-500/20 hover:scale-[1.02] transition-all"
               >
-                RESERVE YOUR SEAT — ONLY ₹309
+                RESERVE YOUR SEAT — ONLY ₹399
               </button>
             </div>
           </div>

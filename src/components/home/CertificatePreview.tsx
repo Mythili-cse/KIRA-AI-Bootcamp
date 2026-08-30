@@ -76,7 +76,7 @@ export const CertificatePreview: React.FC<CertificatePreviewProps> = ({ onOpenEn
                 onClick={onOpenEnrollment}
                 className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-extrabold text-xs shadow-lg shadow-amber-500/20 hover:scale-[1.02] transition-transform"
               >
-                EARN THIS CERTIFICATE FOR ₹309
+                EARN THIS CERTIFICATE FOR ₹399
               </button>
             </div>
           </div>

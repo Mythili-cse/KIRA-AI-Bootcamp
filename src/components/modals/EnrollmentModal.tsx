@@ -66,12 +66,12 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
           </div>
           <h2 className="text-2xl font-display font-extrabold text-white">
             {step === 'details' && 'Student Seat Reservation'}
-            {step === 'payment' && 'Complete ₹309 Payment'}
+            {step === 'payment' && 'Complete ₹399 Payment'}
             {step === 'success' && 'Enrollment Confirmed!'}
           </h2>
           <div className="flex items-center gap-2">
             <span className="text-xs text-slate-300">One-Time Fee:</span>
-            <span className="text-lg font-black text-amber-400">₹309</span>
+            <span className="text-lg font-black text-amber-400">₹399</span>
             <span className="text-[10px] text-slate-400 line-through">₹999</span>
             <span className="bg-amber-400 text-slate-950 font-extrabold text-[10px] px-1.5 py-0.5 rounded">SAVE 69%</span>
           </div>
@@ -134,7 +134,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
             <div className="p-3 rounded-xl bg-slate-900 border border-amber-500/20 text-slate-300 space-y-1">
               <div className="flex items-center gap-1.5 text-amber-400 font-bold">
                 <ShieldCheck className="w-4 h-4" />
-                <span>What's included in ₹309:</span>
+                <span>What's included in ₹399:</span>
               </div>
               <p className="text-[11px] text-slate-400">
                 All 6 Curriculum Modules, 4 Capstone Code Projects, Verified Certificate of Completion & Lifetime Access.
@@ -145,7 +145,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
               type="submit"
               className="w-full py-4 rounded-2xl bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-extrabold text-sm shadow-xl shadow-amber-500/20 flex items-center justify-center gap-2 hover:scale-[1.01] transition-transform"
             >
-              <span>PROCEED TO PAYMENT (₹309)</span>
+              <span>PROCEED TO PAYMENT (₹399)</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </form>
@@ -229,7 +229,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
                   ))}
                 </div>
                 <div className="text-[11px] text-slate-400">
-                  Click Pay to simulate instant UPI transfer of <strong>₹309</strong> to KIRA STUDIO Official UPI Merchant.
+                  Click Pay to simulate instant UPI transfer of <strong>₹399</strong> to KIRA STUDIO Official UPI Merchant.
                 </div>
               </div>
             )}
@@ -237,13 +237,16 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
             {/* QR Option */}
             {paymentMethod === 'qr' && (
               <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 text-center space-y-3">
-                <div className="w-36 h-36 mx-auto bg-white p-2 rounded-xl flex items-center justify-center border-2 border-amber-400">
-                  <div className="w-full h-full bg-slate-950 rounded flex flex-col items-center justify-center text-amber-400 p-2 font-mono text-[9px]">
-                    <QrCode className="w-16 h-16 text-amber-400" />
-                    <span>UPI ID: officialkirastudio@upi</span>
-                  </div>
+                <div className="max-w-[260px] sm:max-w-[280px] mx-auto bg-white p-2 rounded-2xl border-2 border-amber-400/80 shadow-lg flex items-center justify-center">
+                  <img
+                    src="/payment-qr.jpg"
+                    alt="Scan QR code to pay ₹399"
+                    className="w-full h-auto object-contain rounded-xl"
+                  />
                 </div>
-                <div className="text-xs text-amber-300 font-bold">Scan with GPay / PhonePe / Paytm</div>
+                <div className="text-xs text-amber-300 font-bold">
+                  Scan the QR code to complete your payment
+                </div>
               </div>
             )}
 
@@ -252,7 +255,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
               className="w-full py-4 rounded-2xl bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-extrabold text-sm shadow-xl shadow-amber-500/20 flex items-center justify-center gap-2 hover:scale-[1.01] transition-transform"
             >
               <Lock className="w-4 h-4" />
-              <span>PAY ₹309 & CONFIRM ENROLLMENT</span>
+              <span>PAY ₹399 & CONFIRM ENROLLMENT</span>
             </button>
           </div>
         )}
@@ -291,7 +294,7 @@ export const EnrollmentModal: React.FC<EnrollmentModalProps> = ({ isOpen, onClos
                 </div>
                 <div>
                   <span className="text-slate-400 text-[10px] block">Amount Paid:</span>
-                  <strong className="text-emerald-400 font-bold">₹309 (Confirmed)</strong>
+                  <strong className="text-emerald-400 font-bold">₹399 (Confirmed)</strong>
                 </div>
                 <div>
                   <span className="text-slate-400 text-[10px] block">Access Status:</span>
